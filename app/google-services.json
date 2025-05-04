@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598594046781",
+    "project_id": "instanewsapp-59f82",
+    "storage_bucket": "instanewsapp-59f82.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598594046781:android:f0efd34b9b237e4fc01354",
+        "android_client_info": {
+          "package_name": "com.example.instanews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl02w1YLLs_4dhf27XYVQtSZ_IUyFVn4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

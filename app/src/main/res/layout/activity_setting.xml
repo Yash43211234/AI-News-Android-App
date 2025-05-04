@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="24sp"
+            android:textColor="#121212"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Reusable Card for Each Setting Option -->
+        <include layout="@layout/item_setting_option" android:id="@+id/lang_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/notif_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/preferences_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/nightmode_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/datasaver_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/autoplay_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/textsize_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/share_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/rate_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/logout_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/privacy_option" />
+        <include layout="@layout/item_setting_option" android:id="@+id/delete_option" />
+<!--        <include layout="@layout/item_setting_option" android:id="@+id/feedback_option" />-->
+
+    </LinearLayout>
+</ScrollView>

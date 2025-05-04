@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InstaNews</string>
+    <string-array name="country_list">
+        <item>India</item>
+        <item>UK</item>
+        <item>USA</item>
+        <item>Russia</item>
+        <item>China</item>
+    </string-array>
+</resources>
